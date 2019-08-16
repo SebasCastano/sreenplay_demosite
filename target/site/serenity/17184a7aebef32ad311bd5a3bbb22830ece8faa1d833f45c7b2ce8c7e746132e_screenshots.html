@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a2e85fa09a78bd77e13f8e196c390bab4cd16d14b22d2f80577fb96e194020d9.html">Web Automations Demo Site</a></span>
+                > <span class="truncate-60"><a
+                    href="17184a7aebef32ad311bd5a3bbb22830ece8faa1d833f45c7b2ce8c7e746132e.html">registro en el sistema </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-08-2019 11:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Web Automations Demo Site </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario
+deseo registrarme en el sistema
+para usar las funcionalidades del mismo
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2f59df5a4feccefff541f3a3f0f19ff69082c3d3d406875b259415f1be4b0b57.html">Runnertags
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">registro en el sistema
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="62c9827887656098896c827c07851e67556138e3fe0610336d6f934ad82875b9.png" title="Given que Carlos quiere acceder a Demo Site" width="1366"/>
+                <img src="dafd8b71e47a9416c902378327520d88478e5772bd698a657a6a7ecfb5c81627.png" title="Carlos opens the Demo site page" width="1366"/>
+                <img src="18e35596e02a8661e47a1c66853f80c887fa097346426d94f30ee183b4d94c6c.png" title="When el se registra en la p&aacute;gina
+| first_name | last_name | adress | email | phone | sexo | country | anio_fecha | mes_fecha | dia_fecha | password |
+| sebastian | casta&ntilde;o | cra 41 # 3 -54 | castano@gmail.com | 3216549878 | masculino | Colombia | 1995 | July | 18 | Qwert123 |" width="1366"/>
+                <img src="62c9827887656098896c827c07851e67556138e3fe0610336d6f934ad82875b9.png" title="Then Input de nombre should be an element that is visible" width="1366"/>
+                <img src="d8e7c8974ce62b80ea34b83a9ccac36fd6147ead8dcc61903e8c991c655eabb4.png" title="Carlos enters 'sebastian' into Input de nombre" width="1366"/>
+                <img src="161243770130e9cc482fefb3a7a4fcb6ef7a8c6af5fd0cb633afc21a92050842.png" title="Carlos enters 'casta&ntilde;o' into Input de apellido" width="1366"/>
+                <img src="8d7e9ced5ccaa6c555da540d0b86bd86f3400eb697561fdf26a2c270f565a4ad.png" title="Carlos enters 'cra 41 # 3 -54' into text &aacute;rea de direcci&oacute;n" width="1366"/>
+                <img src="f5a99157ae2c21d3754c214778de0efcd9f7aee572908da2eb826d54b6c60451.png" title="Carlos enters 'castano@gmail.com' into input de email" width="1366"/>
+                <img src="fc7c4ab2de336271827e2e4a1828cad7806be97cf8919bb0a6809e7bf5c0f1d0.png" title="Carlos enters '3216549878' into input de telefono" width="1366"/>
+                <img src="bc218db4abd3cb5797beb55798bed2af354ecc4813a6faa031220cc2fa7ebf61.png" title="Carlos clicks on input de telefono" width="1366"/>
+                <img src="9e84f0ef41c08e7e1c8e6577933aa68b926faed60ac1f5d6e381abd644570f5f.png" title="Carlos enters 'Qwert123' into input de telefono" width="1366"/>
+                <img src="1916df63fc8983e1cd84498240df02c883c0c4240c9fca11f630dbdb480299dd.png" title="Carlos enters 'Qwert123' into input de telefono" width="1366"/>
+                <img src="5f0006265b16aa816f902b650b6fd1b12eee0f1ea90d8c8295ef39960e62b830.png" title="Carlos clicks on Bot&oacute;n de submit" width="1366"/>
+                <img src="5e56b8fd36e0e62b12e41ab25507c914547a4c5352d31b26cd24fec82793fd4a.png" title="Then el verifica que se carga la pantalla con texto
+| texto_validar |
+| - Double Click on Edit Icon to EDIT the Table Row. |" width="1366"/>
+                <img src="5e56b8fd36e0e62b12e41ab25507c914547a4c5352d31b26cd24fec82793fd4a.png" title="Then la palabra es should be equalToIgnoringCase('- Double Click on Edit Icon to EDIT the Table Row.'): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
